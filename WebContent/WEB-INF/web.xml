@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>HostelMS</display-name>
+  <welcome-file-list>
+    <welcome-file>main.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+ <description></description>
+ <display-name>LoginServlet</display-name>
+ <servlet-name>LoginServlet</servlet-name>
+ <servlet-class>com.mvc.controller.LoginServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>LoginServlet</servlet-name>
+ <url-pattern>/LoginServlet</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+	<description></description>
+	<display-name>RegisterServlet</display-name>
+	<servlet-name>RegisterServlet</servlet-name>
+	<servlet-class>com.mvc.controller.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>RegisterServlet</servlet-name>
+	<url-pattern>/RegisterServlet</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<description></description>
+	<display-name>AdminServlet</display-name>
+	<servlet-name>AdminServlet</servlet-name>
+	<servlet-class>com.mvc.controller.AdminServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AdminServlet</servlet-name>
+	<url-pattern>/AdminServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<description></description>
+	<display-name>AdminLogout</display-name>
+	<servlet-name>AdminLogout</servlet-name>
+	<servlet-class>com.mvc.controller.AdminLogout</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AdminLogout</servlet-name>
+	<url-pattern>/AdminLogout</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description></description>
+	<display-name>StaffServlet</display-name>
+	<servlet-name>StaffServlet</servlet-name>
+	<servlet-class>com.mvc.controller.StaffServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>StaffServlet</servlet-name>
+	<url-pattern>/StaffServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description></description>
+	<display-name>RoomServlet</display-name>
+	<servlet-name>RoomServlet</servlet-name>
+	<servlet-class>com.mvc.controller.RoomServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>RoomServlet</servlet-name>
+	<url-pattern>/RoomServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<description></description>
+	<display-name>FeeServlet</display-name>
+	<servlet-name>FeeServlet</servlet-name>
+	<servlet-class>com.mvc.controller.FeeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>FeeServlet</servlet-name>
+	<url-pattern>/FeeServlet</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+<description></description>
+<display-name>LogoutServlet</display-name>
+<servlet-name>LogoutServlet</servlet-name>
+<servlet-class>com.mvc.controller.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LogoutServlet</servlet-name>
+<url-pattern>/LogoutServlet</url-pattern>
+</servlet-mapping>
+</web-app>
